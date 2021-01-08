@@ -13,7 +13,7 @@ main {
 
 .main-content {
     background-color: white;
-    opacity: .90;
+    opacity: .95;
     padding: 20px;
     /* font-family: 'Peddana', serif; */
     /* font-family: 'Dancing Script', cursive; */
@@ -24,25 +24,33 @@ nav {
 
     font-family: 'Fauna One', serif;
     font-size: 1.5em;
+    opacity: .9;
 }
+
+/* .navPages {
+    float: right;
+} */
 
 #name {
     font-size: 1.25em;
     font-style: italic;
 }
 
-#searchbtn {
-    color: black;
-    border-color: black
-}
-
-#searchbtn:hover {
-    color: black;
-    border-color: black
-}
-
 footer {
     font-family: 'Fauna One', serif;
-    font-style: italic;
+    opacity: .9;
+
+}
+
+.smIcon {
+    width: 40px;
+    margin-left: 10px;
+    opacity: .75;
+}
+
+#copyRight {
+    padding: 0;
+    padding-right: .75rem;
+    font-size: .9em;
 
 }

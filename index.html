@@ -24,10 +24,13 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse navPages" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">publications</a>
@@ -42,10 +45,6 @@
                     <a class="nav-link" href="#">contact</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="poem contains..." aria-label="Search">
-                <button class="btn btn-outline-success" id="searchbtn" type="submit">Search</button>
-            </form>
         </div>
     </div>
 </nav>
@@ -59,10 +58,21 @@
 </body>
 
 <footer class="footer mt-auto py-3 fixed-bottom bg-light">
-    <div class="container">
-        <span class="text-muted">Sticky footer content here.</span>
+    <div class="container d-flex justify-content-end">
+        <a href="https://twitter.com/theoriginalison" target="_blank"><img src="./style/svg-icons/twitter.svg"
+                alt="Twitter Icon" class="smIcon"></img></a>
+        <a href="https://www.facebook.com/alison.lubar" target="_blank"><img src="./style/svg-icons/fb.svg"
+                alt="Facebook Icon" class="smIcon"></img></a>
+        <a href="https://www.linkedin.com/in/alison-lubar-0210b31b3/" target="_blank"><img
+                src="./style/svg-icons/linkedin.svg" alt="LinkedIn Icon" class="smIcon"></img></a>
+        <a href="https://www.instagram.com/theoriginalison/" target="_blank"><img src="./style/svg-icons/ig.svg"
+                alt="Instagram Icon" class="smIcon"></img></a>
     </div>
-
+    <div class="container d-flex justify-content-end" id="copyRight">
+        <p>
+            Copyright &#169; 2021 Alison Lubar
+        </p>
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
