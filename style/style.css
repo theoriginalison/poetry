@@ -4,9 +4,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    opacity: .85;
     font-family: 'Fauna One', serif;
-
 }
 
 main {
@@ -14,12 +12,16 @@ main {
 }
 
 .main-content {
-    background: white;
-    opacity: 2;
+    background-color: white;
+    opacity: .90;
+    padding: 20px;
+    /* font-family: 'Peddana', serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Markazi Text', serif;
 }
 
 nav {
-    /* font-family: 'Dancing Script', cursive; */
+
     font-family: 'Fauna One', serif;
     font-size: 1.5em;
 }
@@ -34,7 +36,13 @@ nav {
     border-color: black
 }
 
+#searchbtn:hover {
+    color: black;
+    border-color: black
+}
+
 footer {
-        font-family: 'Fauna One', serif;
+    font-family: 'Fauna One', serif;
+    font-style: italic;
 
 }
