@@ -9,7 +9,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <title>Hello, poems!</title>
 </head>
 
@@ -17,7 +19,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" id="name" href="#">alison lubar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,33 +27,35 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Main</a>
+                    <a class="nav-link active" aria-current="page" href="#">main</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Publications</a>
+                    <a class="nav-link" href="#">publications</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Poems</a>
+                    <a class="nav-link" href="#">poems</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Readings</a>
+                    <a class="nav-link" href="#">readings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">contact</a>
                 </li>
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="poem contains..." aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-success" id="searchbtn" type="submit">Search</button>
             </form>
         </div>
     </div>
 </nav>
 
 <body>
-    <div class="container">
-        <h1>Words & Work from AL, coming soon.</h1>
-    </div>
+    <main>
+        <div class="container-fluid main-content">
+            <h1>Words & Work from AL, coming soon.</h1>
+        </div>
+    </main>
 </body>
 
 <footer class="footer mt-auto py-3 fixed-bottom bg-light">
