@@ -39,6 +39,7 @@ nav {
 footer {
     font-family: 'Fauna One', serif;
     opacity: .9;
+    padding-bottom: .25rem;
 
 }
 
@@ -52,5 +53,10 @@ footer {
     padding: 0;
     padding-right: .75rem;
     font-size: .9em;
+    margin-bottom: 0;
 
+}
+
+p {
+    margin-bottom: 0;
 }
