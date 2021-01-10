@@ -60,3 +60,8 @@ footer {
 p {
     margin-bottom: 0;
 }
+
+.card-link {
+    font-family: 'Fauna One', serif;
+    font-color: black;
+}
