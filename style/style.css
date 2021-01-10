@@ -63,5 +63,6 @@ p {
 
 .card-link {
     font-family: 'Fauna One', serif;
-    font-color: black;
+    color: black;
+    font-style: italic;
 }
