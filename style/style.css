@@ -5,10 +5,13 @@ body {
     background-size: cover;
     -o-background-size: cover;
     font-family: 'Fauna One', serif;
+
 }
 
 main {
     margin: 20px;
+    padding-bottom: 2rem;
+
 }
 
 .main-content {
@@ -61,8 +64,44 @@ p {
     margin-bottom: 0;
 }
 
+/* poems page  */
+
 .card-link {
     font-family: 'Fauna One', serif;
     color: black;
     font-style: italic;
 }
+
+/* #lastCard {
+    margin-bottom: 3rem;
+} */
+
+
+/* main page */
+
+#welcome {
+    font-style: italic;
+    font-size: 5em;
+
+}
+
+
+
+.mainText {
+    font-size: 3vmin;
+    text-align: justify;
+  }
+
+.profilepic {
+    border-style: solid;
+    border-width: thick;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding: 0;
+  }
+
+  #mainLongText {
+      /* text-align: right; */
+      line-height: 150%;
+  }
