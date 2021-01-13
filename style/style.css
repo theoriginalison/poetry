@@ -105,3 +105,13 @@ p {
       /* text-align: right; */
       line-height: 150%;
   }
+
+  #puddlePic {
+      width: 400px;
+      border-style: solid;
+    border-width: thick;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding: 0;
+  }
