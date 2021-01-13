@@ -115,3 +115,11 @@ p {
     margin-bottom: 5px;
     padding: 0;
   }
+
+  .featuresText {
+    line-height: 150%;
+  }
+
+  #contactText {
+    line-height: 150%;
+  }
