@@ -50,40 +50,49 @@
 </nav>
 
 <body>
-    <main>
-        <div class="container-fluid main-content" id="mainText">
-            <img class="profilepic img-fluid" src="./biopics/bwbeach.jpg"
-                alt="A black & white picture of Alison looking to the ocean at the left, with her dog, Kira, also looking in the same direction."
-                width="350px" />
-            </br>
-            <h1 id="welcome">welcome</h1>
-            <h2 id="tyfor">& thanks for being here.</h2>
-            <h4 id="mainLongText"></br>Alison Lubar is a poet and educator. All of their published work is avaible to
-                read, under "Poems." See "Publications" for publications they've been a part of, and "Readings" for a
-                list of features and (soon) some videos. Please visit "Contact" for all inquiries. Social media links
-                can be found on the footer, doubly on "About." This page is
-                under construction, but really, aren't we all?</h4>
+    <main class="container-fluid">
+        <div class="main-content row" id="mainText">
+            <div class="col">
+                <img class="profilepic img-fluid" src="./biopics/bwbeach.jpg"
+                    alt="A black & white picture of Alison looking to the ocean at the left, with her dog, Kira, also looking in the same direction."
+                    width="350px" />
+                </br>
+                <h1 id="welcome">welcome</h1>
+                <h2 id="tyfor">& thanks for being here.</h2>
+                <h4 id="mainLongText"></br>Alison Lubar is a poet and educator. All of their published work is avaible
+                    to
+                    read, under "Poems." See "Publications" for publications they've been a part of, and "Readings" for
+                    a
+                    list of features and (soon) some videos. Please visit "Contact" for all inquiries. Social media
+                    links
+                    can be found on the footer, doubly on "About." This page is
+                    under construction, but really, aren't we all?</h4>
+            </div>
         </div>
     </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container d-flex justify-content-end">
+            <a href="https://twitter.com/theoriginalison" target="_blank"><img src="./style/svg-icons/twitter.svg"
+                    alt="Twitter Icon" class="smIcon"></img></a>
+            <a href="https://www.facebook.com/alison.lubar" target="_blank"><img src="./style/svg-icons/fb.svg"
+                    alt="Facebook Icon" class="smIcon"></img></a>
+            <a href="https://www.linkedin.com/in/alison-lubar-0210b31b3/" target="_blank"><img
+                    src="./style/svg-icons/linkedin.svg" alt="LinkedIn Icon" class="smIcon"></img></a>
+            <a href="https://www.instagram.com/theoriginalison/" target="_blank"><img src="./style/svg-icons/ig.svg"
+                    alt="Instagram Icon" class="smIcon"></img></a>
+        </div>
+        <div class="container d-flex justify-content-end" id="copyRight">
+            <p>
+                Copyright &#169; 2021 Alison Lubar
+            </p>
+        </div>
+    </footer>
+
 </body>
 
-<footer class="footer mt-auto py-3 fixed-bottom bg-light">
-    <div class="container d-flex justify-content-end">
-        <a href="https://twitter.com/theoriginalison" target="_blank"><img src="./style/svg-icons/twitter.svg"
-                alt="Twitter Icon" class="smIcon"></img></a>
-        <a href="https://www.facebook.com/alison.lubar" target="_blank"><img src="./style/svg-icons/fb.svg"
-                alt="Facebook Icon" class="smIcon"></img></a>
-        <a href="https://www.linkedin.com/in/alison-lubar-0210b31b3/" target="_blank"><img
-                src="./style/svg-icons/linkedin.svg" alt="LinkedIn Icon" class="smIcon"></img></a>
-        <a href="https://www.instagram.com/theoriginalison/" target="_blank"><img src="./style/svg-icons/ig.svg"
-                alt="Instagram Icon" class="smIcon"></img></a>
-    </div>
-    <div class="container d-flex justify-content-end" id="copyRight">
-        <p>
-            Copyright &#169; 2021 Alison Lubar
-        </p>
-    </div>
-</footer>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
     integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
@@ -94,3 +103,6 @@
 
 
 </html>
+
+<!-- need to fix footer with distance bw it and body -->
+<!-- fixed relative to main, not to body; either body needs to be taller or the html -->

@@ -5,6 +5,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
     font-family: 'Fauna One', serif;
+    /* height: 110vh; */
 
 }
 
@@ -21,6 +22,7 @@ main {
     /* font-family: 'Peddana', serif; */
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Markazi Text', serif;
+    /* play w height here */
 }
 
 nav {
@@ -42,8 +44,6 @@ nav {
 footer {
     font-family: 'Fauna One', serif;
     opacity: .9;
-    padding-bottom: .25rem;
-
 }
 
 .smIcon {
